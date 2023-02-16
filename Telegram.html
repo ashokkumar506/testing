@@ -1,0 +1,325 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/4f06e58ac0.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .fullpage {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            background-color: blueviolet;
+        }
+        .sidebar {
+            width: 30%;
+            height: 100vh;
+            border: 1px solid lightslategray;
+            background-color: white;
+        }
+        .sidebarhead {
+            width: 100%;
+            height: 15vh;
+            max-height: 15vh;
+            max-width: 100%;
+        }
+        .input {
+        
+            border-radius: 30px;
+            margin-bottom:300px;
+            margin-left: 30px;
+            padding: 15Px;
+            padding-left: 100px;
+            font-size: 25px;
+            background-color: rgb(233, 237, 241);
+            border: none;
+            position: fixed;
+            top:3%;
+        
+            
+        }
+        .sidebarbody {
+            width: 100%;
+            height: 85vh;
+            overflow-y: scroll;
+        }
+        .content {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+        }
+        .circle {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin-top: 5px;
+        }
+        .icon {
+            height: 80x;
+            width: 80px;
+            border-radius: 50%;
+        }
+        .text {
+            font-size: 20px;
+            padding-left: 30px;
+            padding-top: 20px;
+        }
+        .content:hover {
+            background-color: rgb(233, 237, 241);
+
+        }
+        .mainbody {
+            width: 70%;
+            height: 100vh;
+            position: fixed;
+            right:0% ;
+            top:0%;
+        }
+        .mainbodypage {
+            width: 100%;
+            height: 100vh;
+            background-image: url("telepic.png");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            max-height: 100vh;
+            max-width: 100%;
+        }
+        .line{
+            position: fixed;
+            margin-left: 80px;
+            bottom:15%;
+            border-bottom: 1px solid white;
+            width: 1000px;
+        }
+        .footer{
+            position: absolute;
+            left: 15%;
+            right: 8%;
+            bottom:5%;
+            display: flex;
+        }
+        .finput{
+            border-radius: 16px;
+            height: 60px;
+            width: 700px;
+            padding-left: 100px;
+            font-size: 25px;
+        }
+        .round {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: white;
+            position: fixed;
+            margin-right: 100px;
+            right:1%;
+            bottom: 5%;
+        }
+        .downcircle {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            border: 1px solid black;
+            background-color: white;
+            position: fixed;
+            right:3%;
+            bottom: 25%;
+        }
+        .symbols{
+            font-size: 25px;
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        .mirror{
+           
+            position:absolute ;
+            left:90px;
+            top:40px;
+            font-size: 20px;
+        
+        }
+        .position{
+            position: absolute;
+            left: 2%;
+            top: 1%;
+        }
+        .moji{
+           
+           position:absolute ;
+           left:30px;
+           top:10px;
+           font-size: 10px;
+       
+       }
+       .attach{
+           
+           position:absolute ;
+           left:600px;
+           bottom:1px;
+           font-size: 30px;
+       
+       }
+       .downcircle:hover {
+        background-color:rgb(49, 176, 176);
+       }
+       .round:hover{
+        background-color:rgb(49, 176, 176);
+       }
+       .menu:hover{
+        background-color: rgb(233, 237, 241) ;
+       }
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="fullpage">
+        <div class="sidebar">
+            <div class="sidebarhead">
+                <div class="menu" >
+                    <i class="fa fa-bars symbols menu" aria-hidden="true"></i>  
+                </div>
+                <div class="position">
+                    <input class="input" type="text" placeholder="search">
+                    <div class="mirror"><i class="fa fa-search" aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="sidebarbody">
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="circle">
+                        <img class="icon" src="favicon.ico">
+                    </div>
+                    <div class="text">
+                        <h3>Trinits Batch8</h3>
+                        <p>Trinits Technologies PVT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="mainbodypage">
+                 <div class="line"></div>
+                 <div class="footer">
+                    <div>
+                       <input class="finput" type="" placeholder="Massage">
+                       <div class="moji"><i style="font-size: 40px;" class="fa fa-meh-o" aria-hidden="true"></i>
+                        <i class="fa fa-paperclip attach" aria-hidden="true"></i>
+                       </div>
+                    </div>
+                        <div class="round ">
+                            <i style="font-size: 30px;margin-left: 17px;margin-top: 15px;"class="fa fa-microphone" aria-hidden="true"></i>
+                        </div>
+                        <div class="downcircle"> <i class="fa fa-arrow-down"  style="font-size:35px;margin-left: 15px;margin-top: 12px;"true"></i></div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
